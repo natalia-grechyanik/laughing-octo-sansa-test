@@ -29,7 +29,7 @@ public class CalculatorTest {
 				{ 0, calc.minus(0, 0) }, { -4, calc.minus(-2, 2) },
 				{ 40, calc.minus(-30, -70) },
 				{ -4000, calc.minus(3000, 7000) }, { 0, calc.minus(1, 1) },
-				{ 7, calc.minus(8, 1) } };
+				{ 8, calc.minus(8, 1) } };
 	}
 
 	@Test(dataProvider = "minusLocalData")
